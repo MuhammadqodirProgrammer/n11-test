@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --main-text: black;
+  --main-bg: gray;
+  --main-box: red;
+}
+
+/* dark mode */
+body.dark {
+  --main-text: white;
+  --main-bg: black;
+  --main-box: rgb(255, 242, 0);
+}
+
+body {
+  background-color:var(--main-bg);
+  color: var(--main-text);
+}
+
+.test {
+  width: 500px;
+  height: 200px;
+  background-color: var(--main-box);
+}
+
