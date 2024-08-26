@@ -27,7 +27,7 @@ function App() {
 			<ComponentName />
 
 			<div className="test">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit aliquid enim voluptates beatae delectus fugiat at dicta maxime labore inventore, libero, aut earum molestias maiores dolorum dolores ipsum ex laborum quibusdam velit impedit temporibus. Incidunt voluptatem debitis velit? Dolores possimus voluptatibus necessitatibus tempora at qui obcaecati asperiores facere atque perspiciatis?
+				test
 			</div>
 			{/* <Routes>
 				<Route path='/' element={<Users />} />
