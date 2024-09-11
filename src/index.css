@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 
+a {
+  text-decoration: none !important;
+}
+
 :root {
   --main-text: black;
-  --main-bg: gray;
+  --main-bg: white;
   --main-box: red;
 }
 
@@ -17,7 +21,7 @@ body.dark {
 }
 
 body {
-  background-color:var(--main-bg);
+  background-color: var(--main-bg);
   color: var(--main-text);
 }
 
@@ -27,3 +31,8 @@ body {
   background-color: var(--main-box);
 }
 
+
+
+table, tr, td, th {
+  border: 1px solid black;
+}
